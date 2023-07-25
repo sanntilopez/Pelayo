@@ -1,0 +1,25 @@
+.footer {
+    background-color: var(--first-color);
+}
+
+.footer p {
+    color: #fff;
+}
+
+.redes img {
+    width: 24px;
+
+
+}
+
+.redes a {
+    display: inline-block;
+    padding: 1rem;
+    background-color: #0004;
+    margin: 0 1rem;
+    border-radius: 50%;
+}
+
+.redes a:hover {
+    background-color: #0006;
+}

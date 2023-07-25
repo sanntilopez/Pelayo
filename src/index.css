@@ -1,13 +1,133 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* ================= GOOGLE FONTS ================= */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* ================= VARIABLES CSS ================= */
+  :root {
+  /* ============== COLORS ============== */
+  /* Change favorite color */
+  --hue-color: 356; /*210 540 550 0 30*/ 
+
+  /* HSL Color mode*/
+  --first-color: hsl(var(--hue-color), 84%, 36%);
+  --second-color: hsl(239, 66%, 34%);
+  --first-color-lighter: hsl(var(--hue-color), 67%, 50%);
+  --title-color: hsl(var(--hue-color), 8%, 15%);
+  --text-color: hsl(var(--hue-color), 8%, 30%);
+  --text-color-light: hsl(var(--hue-color), 8%, 65%);
+  --input-color: hsl(var(--hue-color), 8%, 92%);
+  --body-color: hsl(0, 3%, 98%); 
+
+
+
+  /* ============== FONT AND TYPOGRAPHY ============== */
+  --body-font: 'Poppins', sans-serif;
+
+  --big-font-size: 2rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+
+  /* ============== FONT WEIGHT ============== */
+    --font-medium: 500;
+    --font-semi-bold: 600;
+  
+  }
+
+  /*Font size for large devices*/
+  @media screen and (min-width: 968px) {
+    :root {
+      --big-font-size: 3rem;
+      --h1-font-size: 2.25rem;
+      --h2-font-size: 1.5rem;
+      --h3-font-size: 1.25rem;
+      --normal-font-size: 1rem;
+      --small-font-size: .875rem;
+      --smaller-font-size: .813rem;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+/* ================= BASE ================= */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  transition: all .2s;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: var(--body-color);
+  color: var(--text-color);
+
+}
+
+h1,h2,h3,h4 {
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+i {
+  color: var(--text-color);
+}
+
+/* ================= REUSABLE AND CLASSES ================= */
+
+.section {
+  padding: 0 .6rem 4rem .6rem ;
+  margin-top: 120px;
+}
+
+.section__title {
+  font-size: var(--h1-font-size);
+}
+
+.section__subtitle {
+  display: block;
+  font-size: var(--small-font-size);
+  margin-bottom: 3rem;
+}
+
+.section__title,
+.section__subtitle {
+  text-align: center;
+}
+
+
+/* ================= BUTTON ================= */
+
+.button {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: .6rem 1rem;
+
+  font-weight: var(--font-medium);
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--first-color-lighter);
+}
+

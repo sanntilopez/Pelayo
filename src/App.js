@@ -1,23 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import Contacto from './components/Contacto/Contacto';
+import Footer from './components/Footer/Footer';
+import Head from './components/Header/Head';
+import Inicio from './components/Inicio';
+import Nosotros from './components/Nosotros/Nosotros';
+import {BrowserRouter, Routes, Route} from "react-router-dom"
+import Whatsapp from './components/WhatsApp/Whatsapp';
+import ProductosPage from './components/ProductosPage/ProductosPage';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Whatsapp/>
+      <BrowserRouter>
+      <Head/>
+        <Routes>
+          <Route path='/' element={<Inicio/>}/>
+          <Route path='/nosotros' element={<Nosotros/>}/>
+          <Route path='/productos' element={<ProductosPage/>}/>
+          <Route path={"/categoria/:id"} element={<ProductosPage/>}/>
+          <Route path='/contacto' element={<Contacto/>}/>
+        </Routes>
+
+
+        <Footer/>
+      </BrowserRouter>
+
     </div>
   );
 }

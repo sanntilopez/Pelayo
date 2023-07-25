@@ -1,0 +1,56 @@
+.item {
+    height: 100%;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.item img {
+    max-height: 200px;
+    align-self: center;
+}
+
+.item h4 {
+
+}
+
+.item p, .item h4 {
+    text-align: left;
+}
+
+.item p {
+    font-size: 1.15em;
+    line-height: 1.8rem;
+    letter-spacing: .005rem;
+}
+
+.productosPage h2 {
+    color: var(--first-color);
+}
+
+.cat{
+    background-color: #0007;
+    box-shadow: 0 0 4px #0003;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .4rem .6rem;
+    margin: .4rem .4rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.cat:hover {
+    background-color: #0009;
+}
+
+.bl {
+    background-color: #000;
+}
+
+.line {
+    background-color: var(--second-color);
+    height: 5px;
+    width: 200px;
+}

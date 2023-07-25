@@ -1,0 +1,53 @@
+.productos h2 {
+    color: var(--second-color);
+    padding-bottom: 2rem;
+}
+
+.productos h2 span {
+    color: var(--first-color);
+}
+
+.prod {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    box-shadow: 0 0 8px #0004;
+    padding: 0.3rem 2rem;
+    margin: .7rem;
+    border-radius: 1rem;
+}
+
+.red {
+    background-color: var(--first-color);
+}
+
+.blue {
+    background-color: var(--second-color);
+}
+
+
+
+.prod img {
+    max-height: 230px;
+    align-self: center;
+}
+
+.prod li, .prod p {
+    font-size: 1.1em;
+    line-height: 1.8rem;
+    color: var(--body-color);
+}
+
+.prod h4 {
+    color: var(--body-color);
+}
+
+.productos .but {
+    border-radius: 1rem;
+    background-color: #1c1d1f;
+}
+
+.but:hover {
+    background-color: #000
+}
