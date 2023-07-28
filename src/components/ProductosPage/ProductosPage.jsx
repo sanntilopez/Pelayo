@@ -14,7 +14,7 @@ const ProductosPage = () => {
     },[id])
 
   return (
-    <section className='section productosPage container-fluid d-flex flex-column align-items-center'>
+    <section className='section productosPage container d-flex flex-column align-items-center'>
         <h2 className='row '>PRODUCTOS</h2>
         <div className='line'></div>
         <div className="row categorias my-5">
@@ -29,7 +29,7 @@ const ProductosPage = () => {
         <div className="row">
             {
                 items.map(item => (
-                    <div className='col-md-3 p-0 mb-3  '>
+                    <div className='col-md-4 p-0 mb-3  '>
                         <div className="shadow mx-3 p-5 item d-flex flex-column gap-4">
                             <img src={item.img} alt={item.img}/>
                             <h4>{item.nombre}</h4>

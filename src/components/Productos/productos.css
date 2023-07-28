@@ -11,9 +11,10 @@
     text-align: left;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 2rem;
-    box-shadow: 0 0 8px #0004;
-    padding: 0.3rem 2rem;
+    box-shadow: 0 0 24px #0007;
+    padding: 1rem 2rem;
     margin: .7rem;
     border-radius: 1rem;
 }
@@ -29,18 +30,23 @@
 
 
 .prod img {
-    max-height: 230px;
+    max-height: 350px;
     align-self: center;
+
 }
 
 .prod li, .prod p {
     font-size: 1.1em;
+ 
     line-height: 1.8rem;
     color: var(--body-color);
 }
 
+
+
 .prod h4 {
     color: var(--body-color);
+    text-align: center;
 }
 
 .productos .but {

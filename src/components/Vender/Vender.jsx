@@ -5,13 +5,13 @@ import { Link } from 'react-router-dom'
 const Vender = () => {
   return (
     <section className='section vender container'>
-        <div className='row'>
-            <div className='col-md-6'>
-                <img src="/img/img4.jpg" alt="fiambre" width={500}/>
+        <div className='row g-5'>
+            <div className='col-md-7'>
+                <img src="/img/img4.jpg" alt="fiambre" width={750}/>
                 <Link to={"/contacto"}>EMPEZA A VENDER</Link>
             </div>
-            <div className='col-md-6 venderText'>
-                <h2>EMPEZA A <span>VENDER</span></h2>
+            <div className='col-md-5 venderText'>
+                <h2 className='section__title'>EMPEZA A <span>VENDER</span></h2>
                 <p>Tenemos <b>la mejor calidad al mejor precio del
                 mercado</b>. Somos una <b>marca líder</b> en la producción
                 de fiambres en Argentina, destacada por la

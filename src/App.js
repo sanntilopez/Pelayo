@@ -3,7 +3,6 @@ import Contacto from './components/Contacto/Contacto';
 import Footer from './components/Footer/Footer';
 import Head from './components/Header/Head';
 import Inicio from './components/Inicio';
-import Nosotros from './components/Nosotros/Nosotros';
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import Whatsapp from './components/WhatsApp/Whatsapp';
 import ProductosPage from './components/ProductosPage/ProductosPage';
@@ -17,7 +16,6 @@ function App() {
       <Head/>
         <Routes>
           <Route path='/' element={<Inicio/>}/>
-          <Route path='/nosotros' element={<Nosotros/>}/>
           <Route path='/productos' element={<ProductosPage/>}/>
           <Route path={"/categoria/:id"} element={<ProductosPage/>}/>
           <Route path='/contacto' element={<Contacto/>}/>

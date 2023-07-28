@@ -5,196 +5,189 @@
             "id":1,
             "nombre": "Mortadela",
             "descripcion": "Embutido conocido por todos en argentina. Nosotros buscamos la diferencia creando un producto aromático, pero no agresivo a nuestro paladar. Rememora la bologna italiana elaborada con nuestras mejores carnes y grasas de cerdo, cocinada en su justo punto, hace las delicias para nuestros clientes al ser consumida con un excelente pan.",
-            "img": "/img/mortadela.png"
+            "img": "/img/productos/mortadela-min.png"
         },
         {
             "categoria": "ChacinadoCocido",
             "id":2,
             "nombre": "Salchichón Primavera",
             "descripcion": "Producto ya tradicional en nuestro mercado consumidor. Tienen en su composición excelentes carnes de cerdo y gran cantidad de relleno que compone al salchichón primavera, logrando que a la vista de nuestros clientes sea un atractivo irresistible.",
-            "img": "/img/salchichonPrimavera.png"
+            "img": "/img/productos/salchichonPrimavera-min.png"
         },
         {
             "categoria": "ChacinadoCocido",
             "id":3,
             "nombre": "Salchichón con Jamón",
             "descripcion": "Producto ya tradicional en nuestro mercado consumidor. La mezcla perfecta entre el sabor tradicional del salchichón y la carne magra del jamón cocido. Un producto irresistible para la vista y el paladar del consumidor.",
-            "img": "/img/SalchichonconJamón.jpg"
+            "img": "/img/productos/SalchichonconJamón-min.jpg"
         },
         {
             "categoria": "ChacinadoCocido",
             "id":4,
             "nombre": "Queso de cerdo",
             "descripcion": "Este producto nuevo en nuestra línea de elaboración, quiere rememorar aquel exquisito producto que se hacia en nuestras pampas, sabroso. Con carácter propio e idiosincrasia argentina. Especialmente elaborado para los amantes de fiambres con alta saborización.",
-            "img": "/img/QuesodeCerdo.jpg"
+            "img": "/img/productos/QuesodeCerdo-min.jpeg"
         },
         {
             "categoria": "EmbutidosSecos",
             "id":5,
             "nombre": "Chorizo Tipo Calendario",
             "descripcion": "Al gancho, mini bastón x 2 unidades, por paquete al vacío x 3kg.",
-            "img": "/img/ChorizoColorado.jpg"
+            "img": "/img/productos/ChorizoColorado-min.png"
         },
         {
             "categoria": "EmbutidosSecos",
             "id":6,
             "nombre": "Salame Milan",
             "descripcion": "Pieza de 4kg.",
-            "img": "/img/SalameMilan.jpg"
+            "img": "/img/productos/SalameMilan-min.jpg"
         },
         {
             "categoria": "EmbutidosSecos",
             "id":7,
             "nombre": "Longaniza Calabresa",
             "descripcion": "Bastón y bastón con finas hierbas presentación 0,8 kg.",
-            "img": "/img/longanizaCalabresa.jpg"
+            "img": "/img/productos/LonganizaTipoCalabresa-min.png"
         },
         {
             "categoria": "EmbutidosSecos",
             "id":8,
-            "nombre": "Salamín",
+            "nombre": "Salamín Tipo Criollo",
             "descripcion": "Este producto nuevo en nuestra línea de elaboración, quiere rememorar aquel exquisito producto que se hacia en nuestras pampas, sabroso, con carácter propio e idiosincrasia argentina. Especialmente elaborado para los amantes de fiambres con alta saborización.",
-            "img": "/img/SalaminCriollo.png"
+            "img": "/img/productos/SalaminCriollo.png"
         },
         {
             "categoria": "EmbutidosSecos",
             "id":9,
             "nombre": "TIPO J",
             "descripcion": "Este producto nuevo en nuestra línea de elaboración, quiere rememorar aquel exquisito producto que se hacia en nuestras pampas, sabroso, con carácter propio e idiosincrasia argentina. Especialmente elaborado para los amantes de fiambres con alta saborización.",
-            "img": "/img/QuesodeCerdo.jpg"
+            "img": "/img/productos/tipoJ.png"
         },
         {
             "categoria": "Salchichas",
             "id":10,
             "nombre": "Salchicha de Viena con piel",
             "descripcion": "Este embutido cocido, fue pensado para poder deleitar a nuestros clientes en el caso que deseen degustar un excelente pancho gourmet o un plato sencillo pero eficaz, rico en nutrientes , una Viena levemente ahumada cuya mórdida es emblema dé calidad y su sabor despierta una sensación placentera y de saciedad. Paquetes de 6 unidades | paquetes de 12 unidades",
-            "img": "/img/Salchichas.png"
+            "img": "/img/productos/Salchichas-min.jpg"
         },
         {
             "categoria": "Salchichas",
             "id":11,
             "nombre": "Salchicha Copetín",
             "descripcion": "La salchicha de Viena tipo copetín de frigorífico Pelayo ha sido pensada para abarcar la franja de consumo de toda la familia argentina ya que es ideal para los chicos debido a su poder nutricional, suave sabor y color. Paquetes de 1kg | paquetes de 1/2kg",
-            "img": "/img/SalchichasCopetin.jpg"
+            "img": "/img/productos/SalchichasCopetin-min.png"
         },
         {
             "categoria": "Crudos",
             "id":12,
             "nombre": "Jamón crudo sin hueso",
             "descripcion": "Es un jamón procedente de perniles frescos especialmente seleccionados para que se cumpla con éxito, su posterior transformación a jamón crudo estacionado en bodega 12 meses.",
-            "img": "/img/JamonCrudo.png"
+            "img": "/img/productos/JamonCrudo-min.jpg"
         },
         {
             "categoria": "Crudos",
             "id":13,
             "nombre": "Jamón crudo Parma",
             "descripcion": "Es un jamón procedente de perniles frescos especialmente seleccionados para que se cumpla con éxito, su posterior transformación a jamón crudo estacionado en bodega 12 meses. Cabe aclarar que en este tipo de jamón crudo se busca desde un inicio imitar el parma tipo italiano símbolo de calidad mundial. Aquí desde nuestro lugar de trabajo y humildemente tratamos de lograr un producto de la mayor nobleza — y — prestigio aplicando “todos - nuestros conocimientos para que, el producto final pueda estar al nivel de un jamón crudo europeo.",
-            "img": "/img/JamonCrudoParma.jpg"
+            "img": "/img/productos/JamonCrudoParma-min.jpeg"
         },
         {
             "categoria": "Crudos",
             "id":14,
             "nombre": "Bondiola Curada",
             "descripcion": "Elaborado con un proceso cuidado, a fin de que el producto final muestre su exquisito sabor aroma y color de textura untuosa y agradable.",
-            "img": "/img/BondiolaCurada.jpg"
+            "img": "/img/productos/BondiolaCurada-min.png"
         },
         {
             "categoria": "Crudos",
             "id":15,
             "nombre": "Jamón Crudo Pezuña",
             "descripcion": "Es un jamón, procedente de perniles frescos especialmente seleccionados para que se cumpla con éxito, su posterior transformación a jamón crudo estacionado en bodega 12 meses, tratando que su posterior venta se logre en cajas donde 'se provee. A nuestra. Clientela de la prensa de contención de la pata y del cuchillo feteador. Logrando que nuestro consumidor, se vea comprometido en la artesanía de filetear un jamón crudo de alta calidad. Contenido de la caja: 1 jamón crudo tipo ibérico (con hueso), y soporte de madera para jamón, -1 cuchillo especial para fetear.",
-            "img": "/img/JamonCrudoPezuña.jpg"
+            "img": "/img/productos/JamonCrudoPezuña-min.png"
         },
         {
             "categoria": "Crudos",
             "id":16,
-            "nombre": "Jamón deshuesado DON PEDRO",
+            "nombre": "Pernil salado DON PEDRO",
             "descripcion": "Desarrollado con cerdos de calidad y teniendo muy en cuenta que el abanico de nuestra clientela es grande. Dándole la posibilidad de que elijan por ellos mismos para no agredir su economía y no se vean prohibidos de degustar un excelente jamón.",
-            "img": "/img/Jamondeshuesadodonpedro.jpg"
+            "img": "/img/productos/PernilSalado-min.jpg"
         },
         {
             "categoria": "Crudos",
             "id":17,
             "nombre": "Panceta salada",
             "descripcion": "Nuestro trabajo comienza en la elección del cerdo con las mejores características anatómicas y de raza para conformar luego del proceso correspondiente el mejor color balanceado en su sabor, reducido en sodio, de mordida y atractivo aroma.",
-            "img": "/img/PancetaSalada.jpg"
+            "img": "/img/productos/PancetaSalada-min.jpg"
         },
         {
             "categoria": "Cocidos",
             "id":18,
             "nombre": "Fiambre cocido de pata de cerdo",
             "descripcion": "Conformado por músculos nobles producto del despiece del pernil fresco, este fiambre es ideal para acompañar emparedados, comidas, tostados, pizzas, logrando que en cada combinación no pierda sus características de aroma y sabor.",
-            "img": "/img/FiambreCocidodePatadeCerdo.jpg"
+            "img": "/img/productos/FiambreCocidodePatadeCerdo.jpg"
         },
         {
             "categoria": "Cocidos",
             "id":19,
             "nombre": "Fiambre cocido LI BO KANG",
             "descripcion": "Emulsión desarrollada con nobles componentes de cortes y recortes de cerdo, logrando un producto balanceado en su relación precio/calidad, donde logra tener una alternativa de consumo diferenciada.",
-            "img": "/img/FiambreCocidoLibokang.jpg"
+            "img": "/img/productos/FiambreCocidoLibokang.jpg"
         },
         {
             "categoria": "Cocidos",
             "id":20,
             "nombre": "Fiambre cocido DON PEDRO",
             "descripcion": "Este fiambre fue diseñado para aquellos que saben darle a sus sándwiches un toque especial o quieren diferenciarse en el relleno de una tarta o empanada logrando un muy buen sabor en dichas comidas.",
-            "img": "/img/FiambreCocidoDonPedro.jpg"
+            "img": "/img/productos/FiambreCocidoDonPedro.jpg"
         },
         {
             "categoria": "Cocidos",
             "id":21,
             "nombre": "Jamón cocido Natural",
             "descripcion": "Nuestro trabajo comienza en la elección del cerdo con las mejores características anatómicas y de raza para conformar luego “del proceso correspondiente el mejor color balanceado en su sabor bajo en sodio, de mordida y atractivo aroma.",
-            "img": "/img/JamonCocido.png"
+            "img": "/img/productos/JamonCocido.png"
         },
         {
             "categoria": "Cocidos",
             "id":22,
             "nombre": "Jamon cocido Genuino",
             "descripcion": "Nuestro trabajo comienza en la elección del cerdo con las mejores características anatómicas y de raza para conformar luego “del proceso correspondiente el mejor color balanceado en su sabor bajo en sodio, de mordida y atractivo aroma.",
-            "img": "/img/JamonCocidoGenuino.jpg"
+            "img": "/img/productos/JamonCocidoGenuino-min.png"
         },
         {
             "categoria": "Ahumados",
             "id":23,
             "nombre": "Panceta ahumada horneada",
             "descripcion": "Exquisitos productos, desarrollados en base a conocimientos en la artesanal industria alemana, logrando en estos fiambres un aroma y un color suave e intenso a la vez haciéndolos altamente deseables al paladar de nuestros clientes. ",
-            "img": "/img/Pancetaahumada.jpg"
+            "img": "/img/productos/Pancetaahumada-min.png"
         },
         {
             "categoria": "Ahumados",
             "id":24,
             "nombre": "Lomo natural horneado a las finas hierbas",
             "descripcion": "Exquisitos productos, desarrollados en base a conocimientos en la artesanal industria alemana, logrando en estos fiambres un aroma y un color suave e intenso a la vez haciéndolos altamente deseables al paladar de nuestros clientes",
-            "img": "/img/LomoAhumadoFinasHierbas.jpg"
+            "img": "/img/productos/LomoAhumadoFinasHierbas-min.png"
         },
         {
             "categoria": "Ahumados",
             "id":25,
             "nombre": "Panceta ahumada doble",
             "descripcion": "Con el característico sabor de nuestra panceta ahumada. Pero con el agregado de una gran cantidad de carne, que hace de este producto se transforme en un clásico, de las fiambrerías argentinas, ya que sus fetas son de alto poder atractivo para el consumidor.",
-            "img": "/img/PancetaAhumadaDoble.jpg"
+            "img": "/img/productos/PancetaAhumadaDoble-min.jpg"
         },
         {
             "categoria": "Ahumados",
             "id":26,
             "nombre": "Lomo ahumado",
             "descripcion": "Nuestro trabajo comienza en la elección del cerdo con las mejores características anatómicas y de raza para conformar luego del proceso correspondiente el mejor color balanceado en su sabor, reducido en sodio, de mordida y atractivo aroma.",
-            "img": "/img/LomoAhumado.jpg"
+            "img": "/img/productos/LomoAhumado-min.png"
         },
         {
             "categoria": "Ahumados",
             "id":27,
             "nombre": "Pastron ahumado",
             "descripcion": "Un producto desarrollado a base de conocimientos otorgados por la comunidad judía, sabia en sabores, desarrollado con pecho vacuno de alta calidad.",
-            "img": "/img/PastronAhumado.png"
-        },
-        {
-            "categoria": "Ahumados",
-            "id":28,
-            "nombre": "Lomo natural horneado a las finas hierbas tipo suizo",
-            "descripcion": "Exquisitos productos, desarrollados en base a conocimientos en la artesanal industria alemana, logrando en estos fiambres un aroma y un color suave e intenso a la vez haciéndolos altamente deseables al paladar de nuestros clientes.",
-            "img": "/img/LomoAhumadoFinasHierbas.jpg"
+            "img": "/img/productos/PastronAhumado-min.png"
         }
     ]
 }

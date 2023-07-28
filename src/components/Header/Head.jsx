@@ -38,7 +38,6 @@ const Head = () => {
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div className="navbar-nav d-flex justify-content-around w-100 fw-bold">
                 <Link className="nav-link active" onClick={(e) => getActive(e.target)} to={"/"}>INICIO</Link>
-                <Link className="nav-link" to={"/nosotros"}  onClick={(e) => getActive(e.target)}>NOSOTROS</Link>
                 <Link className="nav-link" to={"/productos"}  onClick={(e) => getActive(e.target)}>PRODUCTOS</Link>
                 <Link className="nav-link" to={"/contacto"}  onClick={(e) => getActive(e.target)}>CONTACTO</Link>
               </div>
@@ -48,7 +47,7 @@ const Head = () => {
                 </div>
                 <div className="hero">
                   <div className="heroBox">
-                    <img src="./img/logo.png" alt="pelayo frigorifico" />
+                    <img src="/img/logo.png" alt="pelayo frigorifico" />
                       <h2>Somos una marca líder en la producción de fiambres en Argentina</h2>
                       </div>
                       </div>
