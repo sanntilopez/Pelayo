@@ -12,13 +12,13 @@ const Footer = () => {
                     <p>Carhué 2668, C1440. CABA, Mataderos / {"(011) 4686 4336"}</p>
                 </div>
                 <div className='redes'>
-                    <a href="https://www.instagram.com/frigopelayo/" target='_BLANK'>
+                    <a href="https://www.instagram.com/frigopelayo/" target='_blank' rel='noreferrer'>
                         <img src="/img/instagram.svg" alt="instagram" />
                     </a>
-                    <a href="https://www.facebook.com/pelayofrigorifico/" target='_BLANK'>
+                    <a href="https://www.facebook.com/pelayofrigorifico/" target='_blank' rel='noreferrer'>
                         <img src="/img/facebook.svg" alt="facebook" />
                     </a>
-                    <a href="mailto:frigopelayo@yahoo.com.ar" target='_BLANK'>
+                    <a href="mailto:frigopelayo@yahoo.com.ar" target='_blank' rel='noreferrer'>
                         <img src="/img/envelope-fill.svg" alt="mail" />
                     </a>
 
