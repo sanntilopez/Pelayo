@@ -21,7 +21,7 @@ const Nosotros = () => {
                 el cual es para todos los integrantes de este establecimiento
                 un ejemplo a seguir.</p>
             </div>
-            <div className="col-md-6 px-4">
+            <div className="col-md-6 pl-4">
                 <img src="/img/img1.jpg" alt="fiambre" />
             </div>
         </div>
