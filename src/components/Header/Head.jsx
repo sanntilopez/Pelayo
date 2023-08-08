@@ -12,7 +12,6 @@ let getActive = (e) => {
     activo.classList.remove("active");
   }
   e.classList.add("active")
-  console.log(arrayLi);
 };
 
 const Head = () => {
@@ -34,7 +33,7 @@ const Head = () => {
         <nav className="navbar navbar-expand-lg menu z-3 position-fixed" >
           <div className="container-fluid ">
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <img src="/img/list.svg" alt="menu" width={40}/></button>
+            <img src="/img/list.svg" alt="menu" width={30}/></button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div className="navbar-nav d-flex justify-content-around w-100 fw-bold">
                 <Link className="nav-link active" onClick={(e) => getActive(e.target)} to={"/"}>INICIO</Link>

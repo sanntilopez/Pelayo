@@ -9,7 +9,7 @@ const Certificados = () => {
         </div>
         <div className="row">
           <div className="col-md-4 d-flex flex-column align-items-center cert">
-            <div className='mx-1 cer'>
+            <div className='m-1 cer'>
               <img src="/img/Senasa.jpeg" alt="" />
               <h3>Senasa</h3>
               <p>lorem lorem lorem lorem lorem</p>
@@ -17,14 +17,14 @@ const Certificados = () => {
           </div>
           <div className="col-md-4 d-flex flex-column align-items-center cert">
 
-            <div className='mx-1 cer'>
+            <div className='m-1 cer'>
               <img src="/img/Senasa.jpeg" alt="" />
               <h3>Senasa</h3>
               <p>lorem lorem lorem lorem lorem</p>
             </div>
           </div>
           <div className="col-md-4 d-flex flex-column align-items-center cert">
-            <div className='mx-1 cer'>
+            <div className='m-1 cer'>
               <img src="/img/Senasa.jpeg" alt="" />
               <h3>Senasa</h3>
               <p>lorem lorem lorem lorem lorem</p>

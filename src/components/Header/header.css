@@ -62,10 +62,10 @@ header {
 }
 
 .scr {
-    background-color: #0008;
+    background-color: #0007;
     margin-top: 0;
     border-radius: 0;
-    padding: .4rem 0
+    padding: .2rem 0
 }
 
 @media (max-width: 600px) {
