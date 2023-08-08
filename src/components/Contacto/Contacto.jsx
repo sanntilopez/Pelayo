@@ -1,8 +1,23 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import "./contacto.css"
+import emailjs from '@emailjs/browser';
+
 
 const Contacto = () => {
+    const form = useRef();
 
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_bqieyxp', 'template_78x6557', form.current, '-DY-PKOHnqnzxwgdz')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
+
+    
   return (
     <section className=" contacto my-5">
         <div className='container py-5'>
@@ -15,12 +30,12 @@ const Contacto = () => {
                     <p>{"(011) 4686-4336"}</p>
                     <b>Carhué 2668, C1440 <br />CABA, Mataderos</b>
                 </div>
-                <div className='col-md-6'>
-                    <form action="./enviar.php" method='post' className='d-flex flex-column gap-3'>
-                            <input type="text" id='nombre' name='nombre' placeholder='Nombre' required/>
-                            <input type="email" id='email' name='email' placeholder='Email' required />
-                            {/* <input type="text" name="telefono" id="telefono" placeholder='Teléfono' required/>  */}
-                            <textarea name="mensaje" id="mensaje"  cols="30" rows="10" placeholder='Mensaje' required></textarea>
+                <div className='col-md-6 g-2'>
+                    <form className='d-flex flex-column gap-3'  ref={form} onSubmit={sendEmail}>
+                            <input type="text" id='name' name='name'    placeholder='Nombre' />
+                            <input type="email" id='email' name='email'  placeholder='Email' />
+                            <input type="text" name="telefono" id="telefono"  placeholder='Telefono'/>  
+                            <textarea name="message" id="message"  cols="30" rows="10" placeholder='Mensaje'></textarea>
                             <input type="submit" value="Enviar" className='button' />
                     </form>
                 </div>

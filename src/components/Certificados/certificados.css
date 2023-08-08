@@ -1,0 +1,9 @@
+.certificados h2 {
+    color: var(--second-color);
+    margin-bottom: 3rem;
+}
+
+.cer {
+    box-shadow: 0 0 6px #0003;
+    padding: 1rem;
+}

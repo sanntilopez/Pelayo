@@ -3,9 +3,9 @@ import "./nosotros.css"
 
 const Nosotros = () => {
   return (
-    <section className='container section align-middle nosotros'>
+    <section className='container section nosotros'>
         <div className='row'>
-            <div className="col-md-7 px-4 d-flex flex-column justify-content-center">
+            <div className="col-md-6 px-4 d-flex flex-column justify-content-center">
                 <h2 className='section__title'>NUESTRA <span>HISTORIA</span></h2>
                 <p>Allá en el tiempo nacía en Asturias Pedro Sornir, quien supo
                 andar a través del tiempo y finalmente fundar su propio 
@@ -21,9 +21,16 @@ const Nosotros = () => {
                 el cual es para todos los integrantes de este establecimiento
                 un ejemplo a seguir.</p>
             </div>
-            <div className="col-md-5 px-4">
-                <img src="/img/img1.jpg" alt="fiambre" width={600}/>
+            <div className="col-md-6 px-4">
+                <img src="/img/img1.jpg" alt="fiambre" />
             </div>
+        </div>
+        <div className="row mt-5">
+
+            <div className="col " >
+                <img src="/img/entrada.jpg" alt="fiambre" />
+            </div>
+
         </div>
     </section>
   )

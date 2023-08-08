@@ -1,16 +1,19 @@
-.wpp {
+.call {
   position: absolute;
   position:fixed;
-  width:200px;
-  height:40px;
-  bottom:40px;
-  right:120px;
-  background-color:var(--second-color);
-  color:#FFF;
+  bottom:60px;
+  right:140px;
+  background-color:#1c1d1f;
+  box-shadow: 0 0 16px #0004;
+  color:#fff;
+  border-radius: 3rem;
+  padding: .2rem 1rem;
   text-align:center;
-  font-size:30px;
+  font-size:1.4em;
+  font-weight: bold;
   z-index:100;
 }
+
 
 
 .whatsapp {
@@ -35,3 +38,9 @@
     background-color:#00ad40;
 
   }
+
+  @media (max-width: 850px) {
+    .call {
+      display: none;
+    }
+}

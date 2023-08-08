@@ -7,7 +7,7 @@ const Vender = () => {
     <section className='section vender container'>
         <div className='row g-5'>
             <div className='col-md-7'>
-                <img src="/img/img4.jpg" alt="fiambre" width={750}/>
+                <img src="/img/img4.jpg" alt="fiambre" />
                 <Link to={"/contacto"}>EMPEZA A VENDER</Link>
             </div>
             <div className='col-md-5 venderText'>

@@ -26,11 +26,12 @@ const ProductosPage = () => {
             <Link to={"/categoria/Cocidos"} className={`col cat ${id === "Cocidos" ? 'bl' : ''}`}>Cocidos</Link>
             <Link to={"/categoria/Ahumados"} className={`col cat ${id === "Ahumados" ? 'bl' : ''}`}>Ahumados</Link>
         </div>
+        <div className='line2'></div>
         <div className="row">
             {
                 items.map(item => (
-                    <div className='col-md-4 p-0 mb-3  '>
-                        <div className="shadow mx-3 p-5 item d-flex flex-column gap-4">
+                    <div className='col-md-4 p-0 mb-3  ' key={item.id}>
+                        <div className="shadow mx-2 p-4 item d-flex flex-column gap-4">
                             <img src={item.img} alt={item.img}/>
                             <h4>{item.nombre}</h4>
                             <p>{item.descripcion}</p>

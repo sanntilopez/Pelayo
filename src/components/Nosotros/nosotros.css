@@ -18,3 +18,14 @@
 .nosotros h2 span {
     color: var(--first-color);
 }
+
+.nosotros img {
+    width: 100%;
+}
+
+.empr {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
