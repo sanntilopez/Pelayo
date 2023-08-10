@@ -4,6 +4,16 @@
 }
 
 .cer {
+    height: 100%;
     box-shadow: 0 0 6px #0003;
     padding: 1rem;
+}
+
+.cer h3 {
+    font-size: 1.4em;
+}
+
+.cer img {
+    max-height: 160px;
+    margin-bottom: .6rem;
 }
