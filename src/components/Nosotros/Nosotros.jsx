@@ -28,7 +28,7 @@ const Nosotros = () => {
         <div className="row mt-5">
 
             <div className="col " >
-                <img src="/img/entrada.jpg" alt="fiambre" />
+                <img src="/img/entrada.jpeg" alt="fiambre" />
             </div>
 
         </div>

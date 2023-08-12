@@ -1,20 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./header.css"
 import { Link} from 'react-router-dom'
 
-let getActive = (e) => {
-  let a = document.querySelectorAll(".nav-link");
-  let arrayLi = Array.from(a);
-
-  let activo = arrayLi.find(cv => cv.classList.contains("active"));
-
-  if (activo) {
-    activo.classList.remove("active");
-  }
-  e.classList.add("active")
-};
 
 const Head = () => {
+  
+  const getActive = (e) => {
+
+    
+    let a = document.querySelectorAll(".nav-link");
+    let arrayLi = Array.from(a);
+  
+    let activo = arrayLi.find(cv => cv.classList.contains("active"));
+    
+    if (activo) {
+      activo.classList.remove("active");
+    }
+    e.classList.add("active")
+  };
+
   window.onscroll = function() {
     let y = window.scrollY;
     let nav = document.querySelector(".navbar")
@@ -26,7 +30,6 @@ const Head = () => {
     }
   };
 
-
   return (
     <header className="header">
       <div className="position-absolute d-flex justify-content-center w-100">
@@ -36,9 +39,9 @@ const Head = () => {
             <img src="/img/list.svg" alt="menu" width={30}/></button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div className="navbar-nav d-flex justify-content-around w-100 fw-bold">
-                <Link className="nav-link active" onClick={(e) => getActive(e.target)} to={"/"}>INICIO</Link>
-                <Link className="nav-link" to={"/productos"}  onClick={(e) => getActive(e.target)}>PRODUCTOS</Link>
-                <Link className="nav-link" to={"/contacto"}  onClick={(e) => getActive(e.target)}>CONTACTO</Link>
+                <Link className="nav-link ini active" onClick={(e) => getActive(e.target)} to={"/"} >INICIO</Link>
+                <Link className="nav-link pro" to={"/productos"}  onClick={(e) => getActive(e.target)}>PRODUCTOS</Link>
+                <Link className="nav-link con" to={"/contacto"}  onClick={(e) => getActive(e.target)}>CONTACTO</Link>
               </div>
             </div>
             </div>

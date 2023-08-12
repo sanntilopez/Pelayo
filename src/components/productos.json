@@ -9,6 +9,13 @@
         },
         {
             "categoria": "ChacinadoCocido",
+            "id":28,
+            "nombre": "Mortadela Con Pistacho",
+            "descripcion": "Embutido conocido por todos en Argentina, en este caso con el reconocido PISTACHO. Nosotros buscamos la diferencia creando un producto aromático, pero no agresivo a nuestro paladar. Rememora la bologna italiana elaborada con nuestras mejores carnes y grasas de cerdo, cocinada en su justo punto haciendo estallar el sabor del característico pistacho.",
+            "img": "/img/productos/mortadelaConPistachos.png"
+        },
+        {
+            "categoria": "ChacinadoCocido",
             "id":2,
             "nombre": "Salchichón Primavera",
             "descripcion": "Producto ya tradicional en nuestro mercado consumidor. Tienen en su composición excelentes carnes de cerdo y gran cantidad de relleno que compone al salchichón primavera, logrando que a la vista de nuestros clientes sea un atractivo irresistible.",
@@ -25,14 +32,14 @@
             "categoria": "ChacinadoCocido",
             "id":4,
             "nombre": "Queso de cerdo",
-            "descripcion": "Este producto nuevo en nuestra línea de elaboración, quiere rememorar aquel exquisito producto que se hacia en nuestras pampas, sabroso. Con carácter propio e idiosincrasia argentina. Especialmente elaborado para los amantes de fiambres con alta saborización.",
+            "descripcion": "El queso de cerdo se configura como una obra culinaria magistral, fusionando con destreza cortes selectos del cerdo y una amalgama de condimentos premium. Sometido a un curado controlado, logra una textura marmórea y un perfil de sabor umami, con matices terrosos y ricos en complejidad. Cada porción es un tributo a la artesanía y la excelencia en la creación de experiencias gastronómicas refinadas.",
             "img": "/img/productos/QuesodeCerdo-min.jpeg"
         },
         {
             "categoria": "EmbutidosSecos",
             "id":5,
-            "nombre": "Chorizo Tipo Calendario",
-            "descripcion": "Al gancho, mini bastón x 2 unidades, por paquete al vacío x 3kg.",
+            "nombre": "Chorizo tipo “Candelario” PELAYO",
+            "descripcion": "El chorizo colorado se distingue como un embutido emblemático que fusiona carnes de alta calidad con una selección precisa de pimentón y especias. Sometido a un proceso de curado y secado, desarrolla una textura firme y una paleta de sabores en la que la combinación de proteínas, grasa y condimentos crea un perfil gustativo de profunda complejidad. Cada porción de chorizo colorado revela una simbiosis de sabores y aromas, resaltando la destreza en la combinación de ingredientes y la artesanía culinaria.",
             "img": "/img/productos/ChorizoColorado-min.png"
         },
         {
@@ -45,22 +52,22 @@
         {
             "categoria": "EmbutidosSecos",
             "id":7,
-            "nombre": "Longaniza Calabresa",
-            "descripcion": "Bastón y bastón con finas hierbas presentación 0,8 kg.",
-            "img": "/img/productos/LonganizaTipoCalabresa-min.png"
+            "nombre": "Longaniza tipo “Calabresa”  BASTON",
+            "descripcion": "Este tesoro culinario representa la cúspide de la maestría artesanal y el sabor refinado. Su perfil alargado y esbelto es el resultado de una selección meticulosa de carnes de primera calidad y la armoniosa incorporación de especias y condimentos. Ya sea como protagonista en parrillas festivas o como acompañante en platos tradicionales, la longaniza bastón es la encarnación de la excelencia culinaria..",
+            "img": "/img/productos/longanizaTipoCalabresa.png"
         },
         {
             "categoria": "EmbutidosSecos",
             "id":8,
             "nombre": "Salamín Tipo Criollo",
-            "descripcion": "Este producto nuevo en nuestra línea de elaboración, quiere rememorar aquel exquisito producto que se hacia en nuestras pampas, sabroso, con carácter propio e idiosincrasia argentina. Especialmente elaborado para los amantes de fiambres con alta saborización.",
+            "descripcion": "Para los vivientes en el campo o los amantes de las viejas costumbres, este 'SALAMIN tipo CRIOLLO' tiene el sabor típico de campo recordando a las mesas largas donde se juntaba toda una familia a disfrutar y elaborar sus embutidos caseros.",
             "img": "/img/productos/SalaminCriollo.png"
         },
         {
             "categoria": "EmbutidosSecos",
             "id":9,
-            "nombre": "TIPO J",
-            "descripcion": "Este producto nuevo en nuestra línea de elaboración, quiere rememorar aquel exquisito producto que se hacia en nuestras pampas, sabroso, con carácter propio e idiosincrasia argentina. Especialmente elaborado para los amantes de fiambres con alta saborización.",
+            "nombre": "Longaniza tipo J “Pelayo”",
+            "descripcion": "Esta creación culinaria es la síntesis de la tradición y la innovación en la industria. Su forma distintiva en 'J' es el resultado de años de perfeccionamiento, donde la mezcla perfectamente equilibrada de carnes selectas y especias meticulosamente elegidas dan vida a un sabor inigualable. La longaniza tipo J es el fruto de décadas de pasión y compromiso con la excelencia en la gastronomía de los fiambres.",
             "img": "/img/productos/tipoJ.png"
         },
         {
@@ -80,9 +87,9 @@
         {
             "categoria": "Crudos",
             "id":12,
-            "nombre": "Jamón crudo sin hueso",
-            "descripcion": "Es un jamón procedente de perniles frescos especialmente seleccionados para que se cumpla con éxito, su posterior transformación a jamón crudo estacionado en bodega 12 meses.",
-            "img": "/img/productos/JamonCrudo-min.jpg"
+            "nombre": "Jamón Crudo ½ listo “PELAYO”",
+            "descripcion": "El Jamón Crudo es el resultado sublime de un proceso meticuloso, donde la carne de cerdo es cuidadosamente salada y se estaciona en condiciones controladas durante 12 meses, permitiendo una maduración que desarrolla su textura y sabor únicos. Cada loncha revela la interacción entre la grasa intramuscular y la carne magra, generando un perfil gustativo que combina notas salinas con matices de curado y una textura firme pero delicada. Un arte culinario que rinde homenaje a la paciencia y a la búsqueda de la excelencia en la creación de sabores excepcionales.",
+            "img": "/img/productos/JamonCrudo.png"
         },
         {
             "categoria": "Crudos",
@@ -94,8 +101,8 @@
         {
             "categoria": "Crudos",
             "id":14,
-            "nombre": "Bondiola Curada",
-            "descripcion": "Elaborado con un proceso cuidado, a fin de que el producto final muestre su exquisito sabor aroma y color de textura untuosa y agradable.",
+            "nombre": "Bondiola Curada “PELAYO”",
+            "descripcion": "La Bondiola es como el tesoro escondido de la carne, un rincón donde la jugosidad se encuentra con la intensidad de los sabores. Cada mordisco es un paseo por una montaña rusa de texturas, desde la suavidad inicial hasta la firmeza que se despliega. Es una aventura de gusto, un viaje sensorial que te invita a explorar los rincones más exquisitos de la gastronomía. Una experiencia que se despliega en capas de deleite en cada bocado",
             "img": "/img/productos/BondiolaCurada-min.png"
         },
         {
@@ -115,9 +122,9 @@
         {
             "categoria": "Crudos",
             "id":17,
-            "nombre": "Panceta salada",
-            "descripcion": "Nuestro trabajo comienza en la elección del cerdo con las mejores características anatómicas y de raza para conformar luego del proceso correspondiente el mejor color balanceado en su sabor, reducido en sodio, de mordida y atractivo aroma.",
-            "img": "/img/productos/PancetaSalada-min.jpg"
+            "nombre": "Panceta Salada “PELAYO”",
+            "descripcion": "La panceta salada se erige como un ejemplar de curación gastronómica, con cortes de cerdo sometidos a una infusión controlada de sal que culmina en un proceso de secado. Esta creación exhibe una textura densa y un espectro de sabores que amalgama notas salinas y un juego entre la estructura proteica y la grasa intramuscular, resultando en una experiencia gustativa que evoca una profunda interacción sensorial. Cada porción de panceta salada es una sinfonía de técnica y sabor, que refleja la meticulosa atención a la transformación de ingredientes en un producto final excepcional.",
+            "img": "/img/productos/PancetaSalada.jpg"
         },
         {
             "categoria": "Cocidos",
@@ -144,29 +151,29 @@
             "categoria": "Cocidos",
             "id":21,
             "nombre": "Jamón cocido Natural",
-            "descripcion": "Nuestro trabajo comienza en la elección del cerdo con las mejores características anatómicas y de raza para conformar luego “del proceso correspondiente el mejor color balanceado en su sabor bajo en sodio, de mordida y atractivo aroma.",
+            "descripcion": "El Jamón Cocido Natural encarna la culminación de una meticulosa preparación, destacando cortes magros de cerdo sometidos a cocción y posterior enfriamiento controlado. Este proceso logra una textura suave y uniforme, mientras que su perfil de sabor revela la interacción entre proteínas y la presencia de umami. Cada rebanada de este jamón despliega una combinación única de técnicas culinarias y equilibrio gustativo, reflejando la destreza en la transformación de la carne en un producto de alta calidad.",
             "img": "/img/productos/JamonCocido.png"
         },
         {
             "categoria": "Cocidos",
             "id":22,
             "nombre": "Jamon cocido Genuino",
-            "descripcion": "Nuestro trabajo comienza en la elección del cerdo con las mejores características anatómicas y de raza para conformar luego “del proceso correspondiente el mejor color balanceado en su sabor bajo en sodio, de mordida y atractivo aroma.",
+            "descripcion": "El Jamón Cocido es como una sinfonía de sabores suaves y una textura que se deshace en el paladar, una danza culinaria que combina la maestría en la cocción con la elegancia en cada rebanada. Es un abrazo de delicias, un paseo por el sabor que te transporta con cada bocado. Un encuentro entre la carne y el arte culinario que te invita a deleitarte en su simplicidad sofisticada",
             "img": "/img/productos/JamonCocidoGenuino-min.png"
         },
         {
             "categoria": "Ahumados",
             "id":23,
-            "nombre": "Panceta ahumada horneada",
-            "descripcion": "Exquisitos productos, desarrollados en base a conocimientos en la artesanal industria alemana, logrando en estos fiambres un aroma y un color suave e intenso a la vez haciéndolos altamente deseables al paladar de nuestros clientes. ",
-            "img": "/img/productos/Pancetaahumada-min.png"
+            "nombre": "Panceta Ahumada “PELAYO”",
+            "descripcion": "La panceta ahumada es un logro culinario que combina una selección minuciosa de cortes de cerdo con un proceso de ahumado controlado, resultando en una textura marmórea y un perfil de sabor que resalta la interacción entre el humo y la grasa intramuscular. Este producto revela un equilibrio entre notas ahumadas, salinas y grasas, creando una experiencia sensorial rica en matices y complejidad. Cada porción de panceta ahumada es un ejemplo de la maestría en la creación de sabores profundos y sofisticados.",
+            "img": "/img/productos/Pancetaahumada.png"
         },
         {
             "categoria": "Ahumados",
             "id":24,
-            "nombre": "Lomo natural horneado a las finas hierbas",
-            "descripcion": "Exquisitos productos, desarrollados en base a conocimientos en la artesanal industria alemana, logrando en estos fiambres un aroma y un color suave e intenso a la vez haciéndolos altamente deseables al paladar de nuestros clientes",
-            "img": "/img/productos/LomoAhumadoFinasHierbas-min.png"
+            "nombre": "Lomito Ahumado con Finas Hierbas “PELAYO”",
+            "descripcion": "Este lomito selecto es ahumado con esmero utilizando quebracho de calidad, infundiendo profundidad y carácter en cada corte. La incorporación de finas hierbas aromáticas como el romero y el coriando eleva la experiencia a nuevas alturas, creando una sinfonía de sabores que danzan en el paladar. ",
+            "img": "/img/productos/LomoAhumadoFinasHierbas.png"
         },
         {
             "categoria": "Ahumados",
@@ -178,9 +185,9 @@
         {
             "categoria": "Ahumados",
             "id":26,
-            "nombre": "Lomo ahumado",
-            "descripcion": "Nuestro trabajo comienza en la elección del cerdo con las mejores características anatómicas y de raza para conformar luego del proceso correspondiente el mejor color balanceado en su sabor, reducido en sodio, de mordida y atractivo aroma.",
-            "img": "/img/productos/LomoAhumado-min.png"
+            "nombre": "Lomito Ahumado “PELAYO”",
+            "descripcion": "Este delicado manjar es el resultado de años de experiencia y técnica refinada. La carne de lomo seleccionada es ahumada con madera de quebracho, infundiendo un sabor ahumado que cautiva los sentidos. Cada rebanada revela una textura tierna y un equilibrio perfecto de sabores, alcanzando la perfección gastronómica.",
+            "img": "/img/productos/lomoAhumado.png"
         },
         {
             "categoria": "Ahumados",
@@ -188,6 +195,13 @@
             "nombre": "Pastron ahumado",
             "descripcion": "Un producto desarrollado a base de conocimientos otorgados por la comunidad judía, sabia en sabores, desarrollado con pecho vacuno de alta calidad.",
             "img": "/img/productos/PastronAhumado-min.png"
+        },
+        {
+            "categoria": "EmbutidosSecos",
+            "id":29,
+            "nombre": "Longaniza tipo “Calabresa” Finas Hierbas BASTON",
+            "descripcion": "Cada bocado es un viaje sensorial donde la experiencia culinaria se fusiona con una cuidadosa selección de hierbas aromáticas. Las hierbas frescas, desde el romero hasta el orégano, se entrelazan con las carnes de primera calidad, creando una sinfonía de sabores que danzan en el paladar. ",
+            "img": "/img/productos/longanizaFinasHierbas.png"
         }
     ]
 }

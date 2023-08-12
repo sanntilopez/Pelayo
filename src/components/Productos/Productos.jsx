@@ -34,7 +34,7 @@ const Productos = () => {
             </div>
             <div className="row">
                 <Link  to={"/categoria/Salchichas"} className='col prod blue'>
-                    <img src="/img/salchichas.png" alt="salchichas" />
+                    <img src="/img/salchichas.jpg" alt="salchichas" />
                     <div>
                         <h4>Salchichas</h4>
                         <ul>
@@ -61,8 +61,9 @@ const Productos = () => {
                     <div>
                         <h4>Cocidos</h4>
                         <ul>
-                            <li>Fiambres</li>
+                            <li>Fiambres de pata</li>
                             <li>Jamones</li>
+                            <li>Fiambre para emparedados</li>
                         </ul>
                     </div>
                 </Link>
@@ -71,10 +72,9 @@ const Productos = () => {
                     <div>
                         <h4>Ahumados</h4>
                         <ul>
-                            <li>Panceta ahumada Lomo natural</li>
-                            <li>Panceta ahumada doble</li>
-                            <li>Lomo ahumado</li>
-                            <li>Pastrón ahumado</li>
+                            <li>Pancetas Ahumadas</li>
+                            <li>Lomos Ahumados</li>
+                            <li>Pastron Ahumado</li>
                         </ul>
                     </div>
                 </Link>

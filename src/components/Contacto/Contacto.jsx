@@ -28,6 +28,7 @@ const Contacto = () => {
                     <p><b>Estamos abiertos de lunes a viernes <br /> 6hs - 15 hs</b></p>
                     <h4>TELÉFONO</h4>
                     <p>{"(011) 4686-4336"}</p>
+                    <p>4686-5989</p>
                     <b>Carhué 2668, C1440 <br />CABA, Mataderos</b>
                 </div>
                 <div className='col-md-6 g-2'>
