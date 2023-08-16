@@ -2,7 +2,6 @@
     background-color: #0003;
     margin-top: 1rem;
     padding: .6rem 0;
-    border-radius: 1rem;
     
 }
 .menu a {
@@ -68,9 +67,17 @@ header {
     padding: .5rem 0
 }
 
+
+
 @media (max-width: 600px) {
 
     .heroBox img {
         width: 300px;
     }
+}
+@media (max-width: 991px) {
+    .closed {
+        display: none !important;
+    }
+
 }

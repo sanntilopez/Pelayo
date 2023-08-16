@@ -6,6 +6,12 @@ import emailjs from '@emailjs/browser';
 const Contacto = () => {
     const form = useRef();
 
+    const sent = () =>{
+        const sen = document.querySelector(".sent")
+        sen.classList.remove("d-none")
+
+    }
+
     const sendEmail = (e) => {
       e.preventDefault();
   
@@ -33,11 +39,12 @@ const Contacto = () => {
                 </div>
                 <div className='col-md-6 g-2'>
                     <form className='d-flex flex-column gap-3'  ref={form} onSubmit={sendEmail}>
-                            <input type="text" id='name' name='name'    placeholder='Nombre' />
-                            <input type="email" id='email' name='email'  placeholder='Email' />
-                            <input type="text" name="telefono" id="telefono"  placeholder='Telefono'/>  
-                            <textarea name="message" id="message"  cols="30" rows="10" placeholder='Mensaje'></textarea>
-                            <input type="submit" value="Enviar" className='button' />
+                            <input type="text" id='name' name='name'    placeholder='Nombre' required/>
+                            <input type="email" id='email' name='email'  placeholder='Email' required/>
+                            <input type="text" name="telefono" id="telefono"  placeholder='Telefono' required/>  
+                            <textarea name="message" id="message"  cols="30" rows="10" placeholder='Mensaje' required></textarea>
+                            <input type="submit" value="Enviar" className='button' onClick={() => {sent()}}/>
+                            <p className='text-success d-none sent' >Correo enviado!</p>
                     </form>
                 </div>
             </div>
