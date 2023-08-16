@@ -1,22 +1,17 @@
 import React, { useState } from 'react'
 import "./header.css"
-import { Link} from 'react-router-dom'
+import { Link, Navigate} from 'react-router-dom'
 
 
 const Head = () => {
 
-  const open = () =>{
-    let nn = document.querySelector(".navbar-nav");
-    nn.classList.remove("closed")
-  }
+
   
   const getActive = (e) => {
 
-    let nn = document.querySelector(".navbar-nav");
+
     let a = document.querySelectorAll(".nav-link");
     let arrayLi = Array.from(a);
-    nn.classList.add("closed")
-    console.log(nn);
     let activo = arrayLi.find(cv => cv.classList.contains("active"));
     
     if (activo) {
@@ -41,13 +36,13 @@ const Head = () => {
       <div className="position-absolute d-flex justify-content-center w-100">
         <nav className="navbar navbar-expand-lg menu z-3 position-fixed" >
           <div className="container-fluid ">
-            <button className="navbar-toggler" onClick={() => {open()}} type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <img src="/img/list.svg" alt="menu" width={30}/></button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div className="navbar-nav d-flex justify-content-around w-100 fw-bold">
-                <Link className="nav-link ini active"  onClick={(e) => getActive(e.target)} to={"/"} >INICIO</Link>
-                <Link className="nav-link pro" to={"/productos"}  onClick={(e) => getActive(e.target)}>PRODUCTOS</Link>
-                <Link className="nav-link con" to={"/contacto"}  onClick={(e) => getActive(e.target)}>CONTACTO</Link>
+              <div className="navbar-nav d-flex justify-content-around w-100 fw-bold" >
+                <Link className="nav-link active"  onClick={(e) => getActive(e.target)} to={"/"} >INICIO</Link>
+                <Link className="nav-link" to={"/productos"} onClick={(e) => getActive(e.target)}>PRODUCTOS</Link>
+                <Link className="nav-link" to={"/contacto"}  onClick={(e) => getActive(e.target)}>CONTACTO</Link>
               </div>
             </div>
             </div>
