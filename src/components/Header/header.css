@@ -11,6 +11,7 @@
     letter-spacing: .08rem;
 }
 
+
 .menu a:hover {
     background-color: var(--first-color-lighter);
 }
@@ -19,8 +20,8 @@
     height: 100%;
 }
 
-a.active {
-    background-color: var(--first-color-lighter);
+a.active, div.active {
+    background-color: var(--first-color-lighter) !important;
     color: white !important;
 }
 
@@ -76,8 +77,11 @@ header {
     }
 }
 @media (max-width: 991px) {
-    .closed {
-        display: none !important;
+    .menu a {
+        padding: 0 !important;
+    }
+    .menu a div {
+        padding: .8rem 1rem !important;
     }
 
 }
