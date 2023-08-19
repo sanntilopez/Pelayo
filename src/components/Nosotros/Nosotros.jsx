@@ -22,13 +22,13 @@ const Nosotros = () => {
                 un ejemplo a seguir.</p>
             </div>
             <div className="col-md-6 pl-4">
-                <img src="/img/img1.jpg" alt="fiambre" />
+                <img src="/img/img1.webp" alt="fiambre"  loading='lazy'/>
             </div>
         </div>
         <div className="row mt-5">
 
             <div className="col " >
-                <img src="/img/entrada.jpeg" alt="fiambre" />
+                <img src="/img/entrada.webp" alt="fiambre" loading='lazy' />
             </div>
 
         </div>

@@ -9,7 +9,7 @@ const Productos = () => {
         <div className=' container '>
             <div className="row">
                 <Link  to={"/categoria/ChacinadoCocido"} className='col prod red'>
-                    <img src="/img/chacinadoCocido.png" alt="chacinados cocidos" />
+                    <img src="/img/chacinadoCocido.png" alt="chacinados cocidos" loading='lazy' />
                     <div>
                         <h4>Chacinados Cocidos</h4>
                         <ul>
@@ -20,7 +20,7 @@ const Productos = () => {
                     </div>
                 </Link>
                 <Link  to={"/categoria/EmbutidosSecos"} className='col prod blue'>
-                    <img src="/img/embutidosSecos.jpg" alt="embutidos secos" />
+                    <img src="/img/embutidosSecos.webp" alt="embutidos secos" loading='lazy' />
                     <div>
                         <h4>Embutidos secos</h4>
                         <ul>
@@ -34,7 +34,7 @@ const Productos = () => {
             </div>
             <div className="row">
                 <Link  to={"/categoria/Salchichas"} className='col prod blue'>
-                    <img src="/img/salchichas.jpg" alt="salchichas" />
+                    <img src="/img/salchichas.webp" alt="salchichas" loading='lazy' />
                     <div>
                         <h4>Salchichas</h4>
                         <ul>
@@ -44,7 +44,7 @@ const Productos = () => {
                     </div>
                 </Link>
                 <Link  to={"/categoria/Crudos"} className='col prod red'>
-                    <img src="/img/crudos.jpg" alt="crudos" />
+                    <img src="/img/crudos.webp" alt="crudos"  loading='lazy'/>
                     <div>
                         <h4>Crudos</h4>
                         <ul>
@@ -57,7 +57,7 @@ const Productos = () => {
             </div>
             <div className="row">
                 <Link  to={"/categoria/Cocidos"} className='col prod red'>
-                    <img src="/img/cocidos.jpg" alt="cocidos" />
+                    <img src="/img/cocidos.webp" alt="cocidos" loading='lazy' />
                     <div>
                         <h4>Cocidos</h4>
                         <ul>
@@ -68,7 +68,7 @@ const Productos = () => {
                     </div>
                 </Link>
                 <Link  to={"/categoria/Ahumados"} className='col prod blue'>
-                    <img src="/img/ahumados.jpg" alt="ahumados" />
+                    <img src="/img/ahumados.webp" alt="ahumados" loading='lazy' />
                     <div>
                         <h4>Ahumados</h4>
                         <ul>
@@ -81,7 +81,7 @@ const Productos = () => {
                 </div>
                 <div className="row">
                 <div className='col prod red text-center'>
-                    <img src="/img/bg1.jpg" alt="carne de cerdo" className='rounded-2 mt-3'/>
+                    <img src="/img/bg1.webp" alt="carne de cerdo" className='rounded-2 mt-3' loading='lazy'/>
                     <div>
                         <h4>Cortes frescos</h4>
                         

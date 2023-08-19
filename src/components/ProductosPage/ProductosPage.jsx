@@ -32,7 +32,7 @@ const ProductosPage = () => {
                 items.map(item => (
                     <div className='col-md-4 p-0 mb-3  ' key={item.id}>
                         <div className="shadow mx-2 p-4 item d-flex flex-column gap-4">
-                            <img src={item.img} alt={item.img}/>
+                            <img src={item.img} alt={item.img} loading='lazy'/>
                             <h4>{item.nombre}</h4>
                             <p>{item.descripcion}</p>
                         </div>

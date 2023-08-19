@@ -32,7 +32,7 @@ a.active, div.active {
 }
 
 .hero {
-    background: url("../../../public/img/bg2.jpg");
+    background: url("../../../public/img/bg2.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

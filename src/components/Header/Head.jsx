@@ -1,14 +1,11 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import "./header.css"
-import { Link, useHref, useParams} from 'react-router-dom'
+import { Link} from 'react-router-dom'
 
 
 const Head = () => {
   const width = window.innerWidth
-  let as = useHref("")
-  useEffect(() => {
-    console.log(as);
-  }, [as])
+
 
   const getActiveR = (e) => {
     let a = document.querySelectorAll(".respons");
@@ -63,7 +60,7 @@ const Head = () => {
                 </div>
                 <div className="hero">
                   <div className="heroBox">
-                    <img src="/img/logo.png" alt="pelayo frigorifico" />
+                    <img src="/img/logo.png" loading='lazy' alt="pelayo frigorifico" />
                       <h2>Somos una marca líder en la producción de fiambres en Argentina</h2>
                       </div>
                       </div>

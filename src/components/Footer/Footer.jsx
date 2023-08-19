@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className='footer container-fluid p-5 mt-5'>
         <div className="row">
             <div className="col-md-12 d-flex flex-column gap-4 align-items-center ">
-                <img src="/img/logo.png" alt="pelayo" width={350} style={{marginTop:"-100px"}}/>
+                <img src="/img/logo.png" alt="pelayo" width={350} style={{marginTop:"-100px"}} loading='lazy'/>
                 <div>
                     <p className=' mb-3 fs-5'><b>Frigorifico Pelayo.</b></p>
                     <p>Carhué 2668, C1440. CABA, Mataderos / {"(011) 4686 4336"}  |  4869 5989</p>
